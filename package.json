@@ -1,0 +1,24 @@
+{
+  "name": "ejemplo_knex_coder_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/knex": "^0.16.1",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.11.13"
+  }
+}
